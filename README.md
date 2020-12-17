@@ -2,6 +2,10 @@
 
 The purpose of this repository is to share (meta)data and predictions from a project classifying section identifiers in digitized newspapers. The paper describing the process has not been published yet. In the meantime the reader is referred to [Rekathati (2020)](http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-166313). The dataset is intended for researchers with access to API and resources at The National Library of Sweden's [KBLab](https://www.kb.se/in-english/research-collaboration/kblab.html).
 
+## Prerequisites
+
+The files are stored in Apache Parquet format. See [documentation](https://arrow.apache.org/install/) on how to install for you language of choice.
+
 ## Description
 
 A zipped .7z archive containing 3 files: `design3.parquet`, `design4.parquet`, `design5.parquet`. Each file corresponds to a specific design period of the newspaper (see referenced thesis above for details).
