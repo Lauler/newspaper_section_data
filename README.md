@@ -14,6 +14,10 @@ A zipped .7z archive containing 3 files: `design3.parquet`, `design4.parquet`, `
 | Variable  | Description |
 | ------------- | ------------- |
 | id  | The URI for the observation. Acts as unique identifier and links to API. |
+| x | Left upper corner x-coordinate of OCR'd content box within a newspaper page. |
+| y | Left upper corner y-coordinate of OCR'd content box. |
+| width | width of OCR'd content box extending from (x, y). |
+| height | height of OCR'd content box extending from (x, y). |
 | cosine_similarity_5 | A similarity search was performed using a reference image of a section identifier (for example SPORTS). The most similar observations' corresponding images were printed to a folder sorted in order of most similar to least similar. Human annotators cleaned/deleted images which did not contain the section identifier featured in the reference image. The cleaning was performed until a stopping criterion was met: "stop when 5 images in a row do not contain the section identifier class found in the reference image". |
 | cosine_similarity_10  | "Stop when 10 images in a row do not contain the section identifier class of the reference image" |
 | cosine_similarity_15  | "Stop when 15 images in a row do not contain the section identifier class of the reference image" |
