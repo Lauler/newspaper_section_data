@@ -1,6 +1,6 @@
 # Dataset of classified newspaper section identifiers in Svenska Dagbladet 2003-2019
 
-The purpose of this repository is to share (meta)data and predictions from a project classifying section identifiers in digitized newspapers. The paper describing the process has not been published yet. In the meantime the reader is referred to [Rekathath (2020)](http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-166313). The dataset is intended for researchers with access to API and resources at The National Library of Sweden's [KBLab](https://www.kb.se/in-english/research-collaboration/kblab.html).
+The purpose of this repository is to share (meta)data and predictions from a project classifying section identifiers in digitized newspapers. The paper describing the process has not been published yet. In the meantime the reader is referred to [Rekathati (2020)](http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-166313). The dataset is intended for researchers with access to API and resources at The National Library of Sweden's [KBLab](https://www.kb.se/in-english/research-collaboration/kblab.html).
 
 ## Description
 
